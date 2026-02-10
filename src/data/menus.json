@@ -1,0 +1,379 @@
+{
+  "cat-001": {
+    "categories": [
+      {
+        "id": "cat001-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m001", "name": "Paneer Tikka", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Charcoal grilled cottage cheese with spices"},
+          {"id": "m002", "name": "Chicken Malai Tikka", "price": 95, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Creamy spiced chicken grilled in tandoor"},
+          {"id": "m003", "name": "Seekh Kebab", "price": 90, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "Minced lamb kebabs with aromatic spices"},
+          {"id": "m004", "name": "Hara Bhara Kebab", "price": 65, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Spinach and green peas patties"}
+        ]
+      },
+      {
+        "id": "cat001-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m005", "name": "Butter Chicken", "price": 110, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Tender chicken in rich tomato butter gravy"},
+          {"id": "m006", "name": "Dal Makhani", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Slow-cooked black lentils in creamy gravy"},
+          {"id": "m007", "name": "Paneer Butter Masala", "price": 90, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Cottage cheese in rich onion-tomato gravy"},
+          {"id": "m008", "name": "Mutton Rogan Josh", "price": 130, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Kashmiri-style slow-cooked lamb curry"}
+        ]
+      },
+      {
+        "id": "cat001-c3", "name": "Breads & Rice", "sort_order": 3,
+        "items": [
+          {"id": "m009", "name": "Assorted Naan Basket", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Butter, garlic, and plain naan"},
+          {"id": "m010", "name": "Hyderabadi Biryani", "price": 120, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Fragrant basmati rice layered with spiced meat"},
+          {"id": "m011", "name": "Veg Pulao", "price": 70, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Aromatic rice with seasonal vegetables"}
+        ]
+      },
+      {
+        "id": "cat001-c4", "name": "Desserts", "sort_order": 4,
+        "items": [
+          {"id": "m012", "name": "Gulab Jamun", "price": 45, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Deep fried milk dumplings in sugar syrup"},
+          {"id": "m013", "name": "Rasmalai", "price": 55, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Soft paneer discs in saffron milk"},
+          {"id": "m014", "name": "Ice Cream Station", "price": 60, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Assorted premium ice cream flavors"}
+        ]
+      }
+    ]
+  },
+  "cat-002": {
+    "categories": [
+      {
+        "id": "cat002-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m015", "name": "Medu Vada", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Crispy urad dal fritters"},
+          {"id": "m016", "name": "Masala Dosa Station", "price": 55, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Live dosa counter with varieties"},
+          {"id": "m017", "name": "Paneer 65", "price": 65, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Spicy deep-fried paneer cubes"}
+        ]
+      },
+      {
+        "id": "cat002-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m018", "name": "Sambar Rice", "price": 50, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Traditional lentil stew with rice"},
+          {"id": "m019", "name": "Bisi Bele Bath", "price": 55, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Karnataka-style spiced rice with lentils"},
+          {"id": "m020", "name": "Curd Rice", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Cooling yogurt rice with tempering"},
+          {"id": "m021", "name": "Paneer Butter Masala", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Rich creamy paneer curry"}
+        ]
+      },
+      {
+        "id": "cat002-c3", "name": "Breads", "sort_order": 3,
+        "items": [
+          {"id": "m022", "name": "Chapati", "price": 20, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Fresh whole wheat flatbread"},
+          {"id": "m023", "name": "Poori", "price": 25, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Deep-fried puffed bread"}
+        ]
+      },
+      {
+        "id": "cat002-c4", "name": "Desserts", "sort_order": 4,
+        "items": [
+          {"id": "m024", "name": "Payasam", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Traditional South Indian milk dessert"},
+          {"id": "m025", "name": "Mysore Pak", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Classic gram flour sweet"},
+          {"id": "m026", "name": "Kesari Bath", "price": 30, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Semolina sweet with saffron"}
+        ]
+      },
+      {
+        "id": "cat002-c5", "name": "Beverages", "sort_order": 5,
+        "items": [
+          {"id": "m027", "name": "Filter Coffee", "price": 20, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Authentic South Indian filter coffee"},
+          {"id": "m028", "name": "Buttermilk", "price": 15, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Spiced chaas with curry leaves"}
+        ]
+      }
+    ]
+  },
+  "cat-003": {
+    "categories": [
+      {
+        "id": "cat003-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m029", "name": "Bruschetta Platter", "price": 85, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Toasted bread with tomato basil topping"},
+          {"id": "m030", "name": "Chicken Satay", "price": 95, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Grilled chicken skewers with peanut sauce"},
+          {"id": "m031", "name": "Dim Sum Platter", "price": 100, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "Assorted steamed dumplings"}
+        ]
+      },
+      {
+        "id": "cat003-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m032", "name": "Grilled Chicken Breast", "price": 120, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Herb-marinated grilled chicken"},
+          {"id": "m033", "name": "Pasta Alfredo", "price": 90, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Creamy white sauce pasta"},
+          {"id": "m034", "name": "Thai Green Curry", "price": 110, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "Aromatic coconut curry with basil"},
+          {"id": "m035", "name": "Stir Fried Noodles", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Wok-tossed hakka noodles with vegetables"}
+        ]
+      },
+      {
+        "id": "cat003-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m036", "name": "Tiramisu", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Classic Italian coffee dessert"},
+          {"id": "m037", "name": "Chocolate Lava Cake", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Warm chocolate cake with molten center"}
+        ]
+      }
+    ]
+  },
+  "cat-004": {
+    "categories": [
+      {
+        "id": "cat004-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m038", "name": "Vada", "price": 30, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Crispy lentil fritters with chutney"},
+          {"id": "m039", "name": "Bajji Assortment", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Mixed vegetable fritters"}
+        ]
+      },
+      {
+        "id": "cat004-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m040", "name": "Banana Leaf Meals", "price": 60, "is_veg": true, "dietary_tags": ["veg", "jain"], "is_popular": true, "description": "Traditional full meals on banana leaf"},
+          {"id": "m041", "name": "Rasam Rice", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Tangy pepper soup with rice"},
+          {"id": "m042", "name": "Vegetable Kurma", "price": 45, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Mixed veg in coconut gravy"},
+          {"id": "m043", "name": "Pongal", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Comforting rice and lentil dish"}
+        ]
+      },
+      {
+        "id": "cat004-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m044", "name": "Payasam Trio", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Three varieties of traditional payasam"},
+          {"id": "m045", "name": "Jangri", "price": 25, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Ring-shaped lentil sweet"}
+        ]
+      }
+    ]
+  },
+  "cat-005": {
+    "categories": [
+      {
+        "id": "cat005-c1", "name": "Appetizers", "sort_order": 1,
+        "items": [
+          {"id": "m046", "name": "Caprese Salad", "price": 110, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Fresh mozzarella, tomatoes, basil"},
+          {"id": "m047", "name": "Prawn Cocktail", "price": 140, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Chilled prawns with cocktail sauce"},
+          {"id": "m048", "name": "Mushroom Crostini", "price": 95, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Sautéed wild mushrooms on toast"}
+        ]
+      },
+      {
+        "id": "cat005-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m049", "name": "Herb Roasted Chicken", "price": 160, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Free-range chicken with herb crust"},
+          {"id": "m050", "name": "Truffle Risotto", "price": 140, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Creamy arborio rice with truffle oil"},
+          {"id": "m051", "name": "Grilled Salmon", "price": 180, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Atlantic salmon with lemon butter"},
+          {"id": "m052", "name": "Lamb Rack", "price": 200, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "French-trimmed lamb with rosemary jus"}
+        ]
+      },
+      {
+        "id": "cat005-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m053", "name": "Crème Brûlée", "price": 90, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Classic French vanilla custard"},
+          {"id": "m054", "name": "Chocolate Fondant", "price": 100, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Rich dark chocolate with molten center"}
+        ]
+      }
+    ]
+  },
+  "cat-006": {
+    "categories": [
+      {
+        "id": "cat006-c1", "name": "Kebabs", "sort_order": 1,
+        "items": [
+          {"id": "m055", "name": "Galouti Kebab", "price": 85, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Melt-in-mouth Lucknowi kebab"},
+          {"id": "m056", "name": "Boti Kebab", "price": 90, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Tender mutton pieces grilled on skewers"},
+          {"id": "m057", "name": "Paneer Shashlik", "price": 70, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Grilled paneer with bell peppers"}
+        ]
+      },
+      {
+        "id": "cat006-c2", "name": "Biryani & Rice", "sort_order": 2,
+        "items": [
+          {"id": "m058", "name": "Chicken Biryani", "price": 100, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Fragrant Lucknowi-style biryani"},
+          {"id": "m059", "name": "Mutton Biryani", "price": 120, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Slow-cooked mutton with aromatic rice"},
+          {"id": "m060", "name": "Veg Biryani", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Mixed vegetables with saffron rice"}
+        ]
+      },
+      {
+        "id": "cat006-c3", "name": "Curries", "sort_order": 3,
+        "items": [
+          {"id": "m061", "name": "Nihari", "price": 110, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Slow-cooked spiced meat stew"},
+          {"id": "m062", "name": "Shahi Paneer", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Royal paneer in cashew gravy"}
+        ]
+      },
+      {
+        "id": "cat006-c4", "name": "Desserts", "sort_order": 4,
+        "items": [
+          {"id": "m063", "name": "Shahi Tukda", "price": 50, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Royal bread pudding with rabri"},
+          {"id": "m064", "name": "Phirni", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Ground rice pudding in earthen pot"}
+        ]
+      }
+    ]
+  },
+  "cat-007": {
+    "categories": [
+      {
+        "id": "cat007-c1", "name": "Seafood Starters", "sort_order": 1,
+        "items": [
+          {"id": "m065", "name": "Fish Fry", "price": 85, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Crispy spice-crusted fish fillets"},
+          {"id": "m066", "name": "Prawn Ghee Roast", "price": 95, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Mangalorean-style prawns in spiced ghee"},
+          {"id": "m067", "name": "Veg Manchurian", "price": 55, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Crispy veg balls in tangy sauce"}
+        ]
+      },
+      {
+        "id": "cat007-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m068", "name": "Fish Curry Rice", "price": 90, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Coastal-style fish curry with steamed rice"},
+          {"id": "m069", "name": "Crab Masala", "price": 120, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "Fresh crab in spicy masala"},
+          {"id": "m070", "name": "Veg Thali", "price": 65, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Complete vegetarian meal platter"}
+        ]
+      },
+      {
+        "id": "cat007-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m071", "name": "Coconut Barfi", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Sweet coconut fudge squares"}
+        ]
+      }
+    ]
+  },
+  "cat-008": {
+    "categories": [
+      {
+        "id": "cat008-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m072", "name": "Double Ka Meetha", "price": 45, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Hyderabadi bread pudding"},
+          {"id": "m073", "name": "Lukhmi", "price": 50, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Hyderabadi meat pastry"}
+        ]
+      },
+      {
+        "id": "cat008-c2", "name": "Biryani", "sort_order": 2,
+        "items": [
+          {"id": "m074", "name": "Hyderabadi Chicken Dum Biryani", "price": 110, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Signature slow-cooked biryani"},
+          {"id": "m075", "name": "Mutton Dum Biryani", "price": 130, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Premium mutton biryani with saffron"},
+          {"id": "m076", "name": "Veg Dum Biryani", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Vegetable biryani with dum technique"}
+        ]
+      },
+      {
+        "id": "cat008-c3", "name": "Sides", "sort_order": 3,
+        "items": [
+          {"id": "m077", "name": "Mirchi Ka Salan", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Tangy chili curry, biryani companion"},
+          {"id": "m078", "name": "Raita", "price": 25, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Cooling yogurt with onions and mint"}
+        ]
+      },
+      {
+        "id": "cat008-c4", "name": "Desserts", "sort_order": 4,
+        "items": [
+          {"id": "m079", "name": "Qubani Ka Meetha", "price": 50, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Apricot dessert with cream"},
+          {"id": "m080", "name": "Kheer", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Rich rice pudding with nuts"}
+        ]
+      }
+    ]
+  },
+  "cat-009": {
+    "categories": [
+      {
+        "id": "cat009-c1", "name": "Small Plates", "sort_order": 1,
+        "items": [
+          {"id": "m081", "name": "Avocado Toast Bites", "price": 85, "is_veg": true, "dietary_tags": ["veg", "vegan"], "is_popular": true, "description": "Smashed avocado on sourdough crostini"},
+          {"id": "m082", "name": "Chicken Wings", "price": 95, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Crispy wings with choice of sauce"},
+          {"id": "m083", "name": "Loaded Nachos", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Tortilla chips with cheese and salsa"}
+        ]
+      },
+      {
+        "id": "cat009-c2", "name": "Mains", "sort_order": 2,
+        "items": [
+          {"id": "m084", "name": "Truffle Mac & Cheese", "price": 110, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Creamy pasta with truffle oil"},
+          {"id": "m085", "name": "Pulled Chicken Sliders", "price": 120, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Mini burgers with BBQ pulled chicken"},
+          {"id": "m086", "name": "Pesto Pasta", "price": 90, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Fresh basil pesto with penne"}
+        ]
+      },
+      {
+        "id": "cat009-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m087", "name": "Churros", "price": 65, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Fried dough sticks with chocolate dip"},
+          {"id": "m088", "name": "Cheesecake Jar", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "New York cheesecake in a jar"}
+        ]
+      }
+    ]
+  },
+  "cat-010": {
+    "categories": [
+      {
+        "id": "cat010-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m089", "name": "Dahi Ke Sholay", "price": 70, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Crispy hung curd rolls"},
+          {"id": "m090", "name": "Corn Cheese Balls", "price": 65, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Crunchy corn and cheese fritters"},
+          {"id": "m091", "name": "Stuffed Mushrooms", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Button mushrooms with cream cheese filling"}
+        ]
+      },
+      {
+        "id": "cat010-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m092", "name": "Paneer Lababdar", "price": 85, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Paneer in rich tomato-cream gravy"},
+          {"id": "m093", "name": "Malai Kofta", "price": 80, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Cottage cheese dumplings in creamy sauce"},
+          {"id": "m094", "name": "Subz Miloni", "price": 70, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Seasonal vegetables in light gravy"}
+        ]
+      },
+      {
+        "id": "cat010-c3", "name": "Breads & Rice", "sort_order": 3,
+        "items": [
+          {"id": "m095", "name": "Laccha Paratha", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Layered flaky bread"},
+          {"id": "m096", "name": "Kashmiri Pulao", "price": 75, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Saffron rice with dry fruits"}
+        ]
+      },
+      {
+        "id": "cat010-c4", "name": "Live Counters", "sort_order": 4,
+        "items": [
+          {"id": "m097", "name": "Chaat Counter", "price": 50, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Live pani puri, bhel, sev puri"},
+          {"id": "m098", "name": "Pasta Counter", "price": 70, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Made-to-order pasta station"}
+        ]
+      },
+      {
+        "id": "cat010-c5", "name": "Desserts", "sort_order": 5,
+        "items": [
+          {"id": "m099", "name": "Rabri Jalebi", "price": 45, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Hot jalebi with cold rabri"},
+          {"id": "m100", "name": "Dessert Bar", "price": 60, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Assorted Indian and Western desserts"}
+        ]
+      }
+    ]
+  },
+  "cat-011": {
+    "categories": [
+      {
+        "id": "cat011-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m101", "name": "Samosa Platter", "price": 40, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Assorted samosas with chutneys"},
+          {"id": "m102", "name": "Chicken Lollipop", "price": 75, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Spicy chicken drumettes"}
+        ]
+      },
+      {
+        "id": "cat011-c2", "name": "Regional Thalis", "sort_order": 2,
+        "items": [
+          {"id": "m103", "name": "Rajasthani Thali", "price": 90, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Dal baati churma, gatte ki sabzi, and more"},
+          {"id": "m104", "name": "Gujarati Thali", "price": 85, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Dhokla, thepla, undhiyu, shrikhand"},
+          {"id": "m105", "name": "Bengali Thali", "price": 95, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "Fish curry, luchi, mishti doi"}
+        ]
+      },
+      {
+        "id": "cat011-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m106", "name": "Regional Sweets Platter", "price": 50, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Assorted sweets from across India"}
+        ]
+      }
+    ]
+  },
+  "cat-012": {
+    "categories": [
+      {
+        "id": "cat012-c1", "name": "Starters", "sort_order": 1,
+        "items": [
+          {"id": "m107", "name": "Spring Rolls", "price": 45, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Crispy rolls with vegetable filling"},
+          {"id": "m108", "name": "Chicken Tikka", "price": 65, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Tandoori chicken pieces"}
+        ]
+      },
+      {
+        "id": "cat012-c2", "name": "Main Course", "sort_order": 2,
+        "items": [
+          {"id": "m109", "name": "Butter Chicken", "price": 75, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": true, "description": "Classic butter chicken curry"},
+          {"id": "m110", "name": "Chilli Paneer", "price": 60, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Indo-Chinese paneer stir fry"},
+          {"id": "m111", "name": "Egg Fried Rice", "price": 55, "is_veg": false, "dietary_tags": ["non-veg"], "is_popular": false, "description": "Wok-fried rice with scrambled eggs"},
+          {"id": "m112", "name": "Veg Noodles", "price": 50, "is_veg": true, "dietary_tags": ["veg"], "is_popular": false, "description": "Stir-fried hakka noodles"}
+        ]
+      },
+      {
+        "id": "cat012-c3", "name": "Desserts", "sort_order": 3,
+        "items": [
+          {"id": "m113", "name": "Gulab Jamun", "price": 30, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Classic milk solid sweet"},
+          {"id": "m114", "name": "Ice Cream", "price": 35, "is_veg": true, "dietary_tags": ["veg"], "is_popular": true, "description": "Vanilla and chocolate scoops"}
+        ]
+      }
+    ]
+  }
+}
