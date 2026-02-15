@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { Phone } from 'lucide-react-native';
 import { Text, Button, Input } from '@/src/components/ui';
 import { useAuth } from '@/src/hooks/useAuth';
+import { useAuthStore } from '@/src/stores/authStore';
 import { COLORS } from '@/src/utils/constants';
 
 export default function LoginScreen() {
@@ -32,8 +33,11 @@ export default function LoginScreen() {
     }
   };
 
+  const { setDemoMode } = useAuthStore();
+
   // For demo: skip auth and go directly to tabs
   const handleDemoMode = () => {
+    setDemoMode(true);
     router.replace('/(tabs)');
   };
 

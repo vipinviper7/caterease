@@ -48,7 +48,7 @@ export default function OnboardingScreen() {
   };
 
   const completeOnboarding = async () => {
-    await AsyncStorage.setItem('hasOnboarded', 'true');
+    try { await AsyncStorage.setItem('hasOnboarded', 'true'); } catch {}
     setHasOnboarded(true);
     router.replace('/(auth)/login');
   };

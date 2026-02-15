@@ -14,7 +14,7 @@ export { ErrorBoundary } from 'expo-router';
 SplashScreen.preventAutoHideAsync();
 
 function AuthGate({ children }: { children: React.ReactNode }) {
-  const { session, isLoading, hasOnboarded } = useAuthStore();
+  const { session, isLoading, hasOnboarded, isDemoMode } = useAuthStore();
   const segments = useSegments();
   const router = useRouter();
 
@@ -28,12 +28,12 @@ function AuthGate({ children }: { children: React.ReactNode }) {
 
     if (!hasOnboarded && !inAuthGroup) {
       router.replace('/(auth)/onboarding');
-    } else if (!session && !inAuthGroup) {
+    } else if (!session && !isDemoMode && !inAuthGroup) {
       router.replace('/(auth)/login');
-    } else if (session && inAuthGroup) {
+    } else if ((session || isDemoMode) && inAuthGroup) {
       router.replace('/(tabs)');
     }
-  }, [session, isLoading, hasOnboarded, segments]);
+  }, [session, isLoading, hasOnboarded, isDemoMode, segments]);
 
   return <>{children}</>;
 }

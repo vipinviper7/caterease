@@ -9,26 +9,44 @@ export function useAuth() {
   const { session, profile, isLoading, setSession, setProfile, setLoading, setHasOnboarded, reset } = useAuthStore();
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      if (session) fetchProfile(session.user.id);
+    let subscription: { unsubscribe: () => void } | null = null;
+
+    async function init() {
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        setSession(session);
+        if (session) fetchProfile(session.user.id);
+      } catch {
+        // Supabase not configured, continue without session
+      }
       setLoading(false);
-    });
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
-      setSession(session);
-      if (session) fetchProfile(session.user.id);
-      else reset();
-    });
+      try {
+        const { data } = supabase.auth.onAuthStateChange((_event, session) => {
+          setSession(session);
+          if (session) fetchProfile(session.user.id);
+          else reset();
+        });
+        subscription = data.subscription;
+      } catch {
+        // Ignore auth listener errors
+      }
+    }
 
+    init();
     checkOnboarded();
 
-    return () => subscription.unsubscribe();
+    return () => subscription?.unsubscribe();
   }, []);
 
   async function checkOnboarded() {
-    const value = await AsyncStorage.getItem('hasOnboarded');
-    setHasOnboarded(value === 'true');
+    try {
+      const value = await AsyncStorage.getItem('hasOnboarded');
+      setHasOnboarded(value === 'true');
+    } catch {
+      // AsyncStorage not available (web SSR), default to true for web
+      setHasOnboarded(true);
+    }
   }
 
   async function fetchProfile(userId: string) {
